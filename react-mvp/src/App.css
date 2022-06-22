@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+}
+
+.SB {
+  color: blue;
+  font-size: 50px;
+}
+
+.audio {
+  color: rgb(224, 38, 66);
+  font-size: 30px;
+}
+
+.playPause {
+  color: red;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Aclonica", sans-serif;
+  box-shadow: 5px 5px lavender;
+  animation: spring 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.playPause:hover {
+  opacity: 3px;
+  color: black;
+  background-color: red;
+}
+
+@keyframes spring {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  10% {
+    transform: scale(1.2, 0.6);
+  }
+  30% {
+    transform: scale(0.8, 1.1) translateY(-50px);
+  }
+  50% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.loading {
+  font-size: 3rem;
+  color: red;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.stepItem {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 7px solid blue;
+  margin-left: 65px;
+  margin-right: 65px;
+  font-size: 20px;
+  color: black;
+  padding: 15px;
+}
+
+.stepItem:hover {
+  cursor: pointer;
+}
+
+.singleStep {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+  margin: auto;
+  border: 10px solid blue;
+  padding: 1rem;
+  margin-top: 15px;
+  margin-right: 45px;
+}
+
+.back {
+  color: red;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 650px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  box-shadow: 5px 5px lavender;
+}
+
+.back:hover {
+  opacity: 1;
+  color: black;
+  background-color: red;
+}
+
+.update {
+  color: red;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-bottom: -50px;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  box-shadow: 5px 5px lavender;
+}
+
+.update:hover {
+  opacity: 1;
+  color: black;
+  background-color: red;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 650px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  box-shadow: 5px 5px lavender;
+}
+
+.delete:hover {
+  opacity: 1;
+  color: black;
+  background-color: red;
+}
+
+.postSubmit {
+  color: red;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 250px;
+  margin-top: 15px;
+  margin-right: 50px;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  box-shadow: 5px 5px rgb(127, 127, 243);
+}
+
+.postSubmit:hover {
+  opacity: 1;
+  color: black;
+  background-color: red;
+}
+
+.youngSB {
+  border: 10px;
+  border-style: solid;
+  border-color: blue;
+  margin-top: -555px;
+  margin-bottom: 155px;
+  margin-left: 15px;
+}
+
+.form-container {
+  position: absolute;
+  max-width: 300px;
+  border: 8px solid blue;
+  margin-bottom: -95px;
+  margin-top: -35px;
+  padding: 50px;
+  background-color: lavender;
+}
+
+.singlestepdiv {
+  margin-top: 15px;
+  margin-bottom: 85px;
+}
+
+.btn-cancel {
+  color: black;
+  background-color: red;
+  margin-bottom: 3rem;
+  margin-left: 295px;
+}
+
+.cancel-btn {
+  color: black;
+  background-color: red;
+  margin-bottom: 3rem;
+  margin-left: 295px;
+}
+
+.updateform-container {
+  max-width: 300px;
+  border: 8px solid blue;
+  margin-bottom: -95px;
+  margin-top: -35px;
+  padding: 50px;
+  background-color: lavender;
+}
+
+.updateSubmit {
+  color: red;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 250px;
+  margin-bottom: -55px;
+  margin-top: 15px;
+  margin-right: 50px;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  box-shadow: 5px 5px rgb(127, 127, 243);
+}

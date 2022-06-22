@@ -1,0 +1,29 @@
+{
+  "name": "react-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shatawni/REACT-MVP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shatawni/REACT-MVP/issues"
+  },
+  "homepage": "https://github.com/Shatawni/REACT-MVP#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node": "^18.4.0",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3"
+  }
+}
